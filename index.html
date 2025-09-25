@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raiden-Style Shooter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hud">
+      <div class="title">Raiden-Style Shooter</div>
+      <div class="stats">
+        <span id="score">Score: 0</span>
+        <span id="lives">Lives: 3</span>
+      </div>
+      <div class="instructions">
+        Move with ← ↑ → ↓ or WASD &mdash; Press Space to fire
+      </div>
+    </div>
+    <canvas id="game" width="480" height="720"></canvas>
+    <div class="overlay hidden" id="overlay">
+      <div class="overlay-content">
+        <h2 id="overlay-title">Game Over</h2>
+        <p id="overlay-message"></p>
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
