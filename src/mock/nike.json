@@ -1,0 +1,67 @@
+{
+  "brandName": "Nike",
+  "overview": "Nike designs and markets athletic footwear, apparel, and equipment with a strong focus on innovation and sponsorships.",
+  "categories": ["Athletic Apparel", "Footwear", "Equipment"],
+  "priceBand": {
+    "currency": "USD",
+    "low": 35,
+    "high": 275,
+    "median": 120,
+    "sampleSkus": ["Air Zoom Pegasus", "Metcon Training Shoe", "Dri-FIT Pro Tee"]
+  },
+  "audience": {
+    "regions": ["Global"],
+    "ageBuckets": [
+      { "range": "18-24", "weight": 0.28 },
+      { "range": "25-34", "weight": 0.32 },
+      { "range": "35-44", "weight": 0.18 }
+    ],
+    "genderSplit": { "male": 0.5, "female": 0.45, "other": 0.05 },
+    "interests": ["Running", "Basketball", "Lifestyle"],
+    "purchasingPower": "mid"
+  },
+  "conversion": {
+    "estStrength": "mid",
+    "shipping": "Members enjoy free shipping",
+    "returns": "60-day returns",
+    "promos": ["Member exclusives", "Seasonal drops"],
+    "notes": ["High conversion during major sporting events"]
+  },
+  "highlights": {
+    "bullets": [
+      "Flagship athlete endorsements",
+      "Robust omnichannel experience",
+      "Strong loyalty program uptake",
+      "High product innovation cadence"
+    ]
+  },
+  "timeWindows": {
+    "weeklyHotHours": [
+      { "dow": 6, "hours": [10, 11, 20] }
+    ],
+    "dailyHotHours": [10, 20]
+  },
+  "competitors": [
+    { "name": "Adidas", "note": "Direct competitor across categories" },
+    { "name": "Under Armour", "note": "Performance apparel focus" }
+  ],
+  "sources": [
+    {
+      "label": "Wiki Profile",
+      "url": "https://example.com/wiki/nike",
+      "fetchedAt": "2024-02-22T10:00:00Z",
+      "confidence": 0.6
+    },
+    {
+      "label": "Commerce Dashboard",
+      "fetchedAt": "2024-02-21T12:00:00Z",
+      "confidence": 0.65
+    },
+    {
+      "label": "Social Listening",
+      "fetchedAt": "2024-02-20T09:00:00Z",
+      "confidence": 0.55
+    }
+  ],
+  "overallConfidence": 0.78
+}

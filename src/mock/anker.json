@@ -1,0 +1,77 @@
+{
+  "brandName": "Anker",
+  "overview": "Anker is a consumer electronics brand known for charging accessories, smart home devices, and portable power solutions.",
+  "categories": ["Consumer Electronics", "Charging", "Smart Home"],
+  "priceBand": {
+    "currency": "USD",
+    "low": 19,
+    "high": 199,
+    "median": 79,
+    "sampleSkus": ["Anker 737 Power Bank", "Anker Nano II 65W", "Nebula Capsule Projector"]
+  },
+  "audience": {
+    "regions": ["North America", "Europe", "Southeast Asia"],
+    "ageBuckets": [
+      { "range": "18-24", "weight": 0.18 },
+      { "range": "25-34", "weight": 0.36 },
+      { "range": "35-44", "weight": 0.24 }
+    ],
+    "genderSplit": { "male": 0.52, "female": 0.44, "other": 0.04 },
+    "interests": ["Tech Enthusiasts", "Remote Work", "Travel"],
+    "purchasingPower": "mid"
+  },
+  "conversion": {
+    "estStrength": "strong",
+    "shipping": "Free shipping over $50 in the US",
+    "returns": "30-day return window",
+    "promos": ["Bundle & Save", "Lightning Deal"],
+    "notes": ["High repeat purchase on power banks", "Peak demand around travel seasons"]
+  },
+  "highlights": {
+    "bullets": [
+      "Industry-leading fast charging technology",
+      "Reliable customer support and warranty",
+      "Positive sentiment across Amazon reviews",
+      "Trusted by remote professionals",
+      "Versatile product ecosystem",
+      "Strong influencer partnerships"
+    ]
+  },
+  "timeWindows": {
+    "weeklyHotHours": [
+      { "dow": 1, "hours": [9, 10, 21] },
+      { "dow": 4, "hours": [11, 12, 20] }
+    ],
+    "dailyHotHours": [9, 12, 21],
+    "rationale": "Based on Q1 2024 session data from Amazon and DTC store"
+  },
+  "competitors": [
+    { "name": "Belkin", "note": "Premium accessory competitor" },
+    { "name": "RAVPower", "note": "Competes on price and Amazon presence" },
+    { "name": "Aukey", "note": "Strong in EU marketplaces" }
+  ],
+  "sources": [
+    {
+      "label": "Wiki Profile",
+      "url": "https://example.com/wiki/anker",
+      "fetchedAt": "2024-02-20T10:00:00Z",
+      "confidence": 0.6
+    },
+    {
+      "label": "Commerce Dashboard",
+      "fetchedAt": "2024-02-21T09:00:00Z",
+      "confidence": 0.7
+    },
+    {
+      "label": "Social Listening",
+      "fetchedAt": "2024-02-19T15:00:00Z",
+      "confidence": 0.6
+    },
+    {
+      "label": "Internal Ops Notes",
+      "fetchedAt": "2024-02-18T12:00:00Z",
+      "confidence": 0.8
+    }
+  ],
+  "overallConfidence": 0.82
+}
