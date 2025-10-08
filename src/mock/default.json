@@ -1,0 +1,63 @@
+{
+  "brandName": "Demo Brand",
+  "overview": "Demo brand placeholder providing representative data when live providers are unavailable.",
+  "categories": ["General Merchandise"],
+  "priceBand": {
+    "currency": "USD",
+    "low": 25,
+    "high": 150,
+    "median": 68,
+    "sampleSkus": ["Demo SKU A", "Demo SKU B"]
+  },
+  "audience": {
+    "regions": ["North America"],
+    "ageBuckets": [
+      { "range": "18-24", "weight": 0.22 },
+      { "range": "25-34", "weight": 0.3 }
+    ],
+    "interests": ["Lifestyle", "Value shoppers"],
+    "purchasingPower": "mid"
+  },
+  "conversion": {
+    "estStrength": "mid",
+    "shipping": "Standard 5-7 business day shipping",
+    "returns": "30-day returns",
+    "promos": ["Newsletter signup"],
+    "notes": ["Limited remarketing data"]
+  },
+  "highlights": {
+    "bullets": [
+      "Balanced product mix",
+      "Stable customer loyalty",
+      "Growing referral traffic"
+    ]
+  },
+  "timeWindows": {
+    "weeklyHotHours": [
+      { "dow": 2, "hours": [13, 20] }
+    ],
+    "dailyHotHours": [13, 20],
+    "rationale": "Synthesized from benchmark brands"
+  },
+  "competitors": [
+    { "name": "Generic Competitor" }
+  ],
+  "sources": [
+    {
+      "label": "Wiki Profile",
+      "fetchedAt": "2024-02-01T10:00:00Z",
+      "confidence": 0.5
+    },
+    {
+      "label": "Commerce Dashboard",
+      "fetchedAt": "2024-02-01T11:00:00Z",
+      "confidence": 0.55
+    },
+    {
+      "label": "Social Listening",
+      "fetchedAt": "2024-02-01T09:00:00Z",
+      "confidence": 0.5
+    }
+  ],
+  "overallConfidence": 0.7
+}
